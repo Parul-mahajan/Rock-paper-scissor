@@ -72,7 +72,6 @@ function result(comps, users) {
     (comps == "scissor" && users == "paper")
   ) {
     res.innerText = "Computer Won 😜!";
-    
     cs++;
     comp.innerText = "" + cs;
   }
